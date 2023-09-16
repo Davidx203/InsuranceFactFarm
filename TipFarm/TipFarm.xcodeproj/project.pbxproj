@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D30846612AB60ECE00DA31D7 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30846602AB60ECE00DA31D7 /* ContentViewModel.swift */; };
+		D30846632AB61BF600DA31D7 /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30846622AB61BF600DA31D7 /* QuizView.swift */; };
+		D30846892AB6291300DA31D7 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D30846882AB6291300DA31D7 /* WidgetKit.framework */; };
+		D308468B2AB6291300DA31D7 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D308468A2AB6291300DA31D7 /* SwiftUI.framework */; };
+		D308468E2AB6291300DA31D7 /* WidgetTipBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D308468D2AB6291300DA31D7 /* WidgetTipBundle.swift */; };
+		D30846902AB6291300DA31D7 /* WidgetTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = D308468F2AB6291300DA31D7 /* WidgetTip.swift */; };
+		D30846922AB6291600DA31D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D30846912AB6291600DA31D7 /* Assets.xcassets */; };
+		D30846962AB6291600DA31D7 /* WidgetTipExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = D30846862AB6291300DA31D7 /* WidgetTipExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		D36D96172AB561E400CB1809 /* TipFarmApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36D96162AB561E400CB1809 /* TipFarmApp.swift */; };
 		D36D96192AB561E400CB1809 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36D96182AB561E400CB1809 /* ContentView.swift */; };
 		D36D961B2AB561E500CB1809 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D36D961A2AB561E500CB1809 /* Assets.xcassets */; };
@@ -18,6 +26,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		D30846942AB6291600DA31D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D36D960B2AB561E400CB1809 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D30846852AB6291300DA31D7;
+			remoteInfo = WidgetTipExtension;
+		};
 		D36D96242AB561E500CB1809 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D36D960B2AB561E400CB1809 /* Project object */;
@@ -34,7 +49,30 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		D30846812AB625AB00DA31D7 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D30846962AB6291600DA31D7 /* WidgetTipExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		D30846602AB60ECE00DA31D7 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		D30846622AB61BF600DA31D7 /* QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
+		D30846862AB6291300DA31D7 /* WidgetTipExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = WidgetTipExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		D30846882AB6291300DA31D7 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		D308468A2AB6291300DA31D7 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		D308468D2AB6291300DA31D7 /* WidgetTipBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetTipBundle.swift; sourceTree = "<group>"; };
+		D308468F2AB6291300DA31D7 /* WidgetTip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetTip.swift; sourceTree = "<group>"; };
+		D30846912AB6291600DA31D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D30846932AB6291600DA31D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D36D96132AB561E400CB1809 /* TipFarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TipFarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D36D96162AB561E400CB1809 /* TipFarmApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipFarmApp.swift; sourceTree = "<group>"; };
 		D36D96182AB561E400CB1809 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -49,6 +87,15 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		D30846832AB6291300DA31D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D308468B2AB6291300DA31D7 /* SwiftUI.framework in Frameworks */,
+				D30846892AB6291300DA31D7 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D36D96102AB561E400CB1809 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -73,12 +120,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D30846872AB6291300DA31D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D30846882AB6291300DA31D7 /* WidgetKit.framework */,
+				D308468A2AB6291300DA31D7 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D308468C2AB6291300DA31D7 /* WidgetTip */ = {
+			isa = PBXGroup;
+			children = (
+				D308468D2AB6291300DA31D7 /* WidgetTipBundle.swift */,
+				D308468F2AB6291300DA31D7 /* WidgetTip.swift */,
+				D30846912AB6291600DA31D7 /* Assets.xcassets */,
+				D30846932AB6291600DA31D7 /* Info.plist */,
+			);
+			path = WidgetTip;
+			sourceTree = "<group>";
+		};
 		D36D960A2AB561E400CB1809 = {
 			isa = PBXGroup;
 			children = (
 				D36D96152AB561E400CB1809 /* TipFarm */,
 				D36D96262AB561E500CB1809 /* TipFarmTests */,
 				D36D96302AB561E500CB1809 /* TipFarmUITests */,
+				D308468C2AB6291300DA31D7 /* WidgetTip */,
+				D30846872AB6291300DA31D7 /* Frameworks */,
 				D36D96142AB561E400CB1809 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -89,6 +158,7 @@
 				D36D96132AB561E400CB1809 /* TipFarm.app */,
 				D36D96232AB561E500CB1809 /* TipFarmTests.xctest */,
 				D36D962D2AB561E500CB1809 /* TipFarmUITests.xctest */,
+				D30846862AB6291300DA31D7 /* WidgetTipExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -98,6 +168,8 @@
 			children = (
 				D36D96162AB561E400CB1809 /* TipFarmApp.swift */,
 				D36D96182AB561E400CB1809 /* ContentView.swift */,
+				D30846622AB61BF600DA31D7 /* QuizView.swift */,
+				D30846602AB60ECE00DA31D7 /* ContentViewModel.swift */,
 				D36D96402AB5627400CB1809 /* File.swift */,
 				D36D961A2AB561E500CB1809 /* Assets.xcassets */,
 				D36D961C2AB561E500CB1809 /* Preview Content */,
@@ -133,6 +205,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		D30846852AB6291300DA31D7 /* WidgetTipExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D30846972AB6291600DA31D7 /* Build configuration list for PBXNativeTarget "WidgetTipExtension" */;
+			buildPhases = (
+				D30846822AB6291300DA31D7 /* Sources */,
+				D30846832AB6291300DA31D7 /* Frameworks */,
+				D30846842AB6291300DA31D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WidgetTipExtension;
+			productName = WidgetTipExtension;
+			productReference = D30846862AB6291300DA31D7 /* WidgetTipExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		D36D96122AB561E400CB1809 /* TipFarm */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D36D96372AB561E500CB1809 /* Build configuration list for PBXNativeTarget "TipFarm" */;
@@ -140,10 +229,12 @@
 				D36D960F2AB561E400CB1809 /* Sources */,
 				D36D96102AB561E400CB1809 /* Frameworks */,
 				D36D96112AB561E400CB1809 /* Resources */,
+				D30846812AB625AB00DA31D7 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				D30846952AB6291600DA31D7 /* PBXTargetDependency */,
 			);
 			name = TipFarm;
 			productName = TipFarm;
@@ -196,6 +287,9 @@
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
+					D30846852AB6291300DA31D7 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
 					D36D96122AB561E400CB1809 = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
@@ -225,11 +319,20 @@
 				D36D96122AB561E400CB1809 /* TipFarm */,
 				D36D96222AB561E500CB1809 /* TipFarmTests */,
 				D36D962C2AB561E500CB1809 /* TipFarmUITests */,
+				D30846852AB6291300DA31D7 /* WidgetTipExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		D30846842AB6291300DA31D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D30846922AB6291600DA31D7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D36D96112AB561E400CB1809 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -256,11 +359,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		D30846822AB6291300DA31D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D308468E2AB6291300DA31D7 /* WidgetTipBundle.swift in Sources */,
+				D30846902AB6291300DA31D7 /* WidgetTip.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D36D960F2AB561E400CB1809 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D30846612AB60ECE00DA31D7 /* ContentViewModel.swift in Sources */,
 				D36D96192AB561E400CB1809 /* ContentView.swift in Sources */,
+				D30846632AB61BF600DA31D7 /* QuizView.swift in Sources */,
 				D36D96412AB5627400CB1809 /* File.swift in Sources */,
 				D36D96172AB561E400CB1809 /* TipFarmApp.swift in Sources */,
 			);
@@ -286,6 +400,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		D30846952AB6291600DA31D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D30846852AB6291300DA31D7 /* WidgetTipExtension */;
+			targetProxy = D30846942AB6291600DA31D7 /* PBXContainerItemProxy */;
+		};
 		D36D96252AB561E500CB1809 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = D36D96122AB561E400CB1809 /* TipFarm */;
@@ -299,6 +418,60 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		D30846982AB6291600DA31D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 62X5SNLX8B;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WidgetTip/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = WidgetTip;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = davidperez.TipFarm.WidgetTip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D30846992AB6291600DA31D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 62X5SNLX8B;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WidgetTip/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = WidgetTip;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = davidperez.TipFarm.WidgetTip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		D36D96352AB561E500CB1809 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -416,6 +589,7 @@
 		D36D96382AB561E500CB1809 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -445,6 +619,7 @@
 		D36D96392AB561E500CB1809 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -550,6 +725,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		D30846972AB6291600DA31D7 /* Build configuration list for PBXNativeTarget "WidgetTipExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D30846982AB6291600DA31D7 /* Debug */,
+				D30846992AB6291600DA31D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		D36D960E2AB561E400CB1809 /* Build configuration list for PBXProject "TipFarm" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
