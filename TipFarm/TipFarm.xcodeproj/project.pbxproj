@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C3F75182AB65C8400AA0DE7 /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C3F75172AB65C8400AA0DE7 /* QuizView.swift */; };
 		D36D96172AB561E400CB1809 /* TipFarmApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36D96162AB561E400CB1809 /* TipFarmApp.swift */; };
 		D36D96192AB561E400CB1809 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36D96182AB561E400CB1809 /* ContentView.swift */; };
 		D36D961B2AB561E500CB1809 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D36D961A2AB561E500CB1809 /* Assets.xcassets */; };
@@ -14,7 +15,7 @@
 		D36D96282AB561E500CB1809 /* TipFarmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36D96272AB561E500CB1809 /* TipFarmTests.swift */; };
 		D36D96322AB561E500CB1809 /* TipFarmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36D96312AB561E500CB1809 /* TipFarmUITests.swift */; };
 		D36D96342AB561E500CB1809 /* TipFarmUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36D96332AB561E500CB1809 /* TipFarmUITestsLaunchTests.swift */; };
-		D36D96412AB5627400CB1809 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36D96402AB5627400CB1809 /* File.swift */; };
+		D36D96412AB5627400CB1809 /* ContentViewModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36D96402AB5627400CB1809 /* ContentViewModels.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6C3F75172AB65C8400AA0DE7 /* QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
 		D36D96132AB561E400CB1809 /* TipFarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TipFarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D36D96162AB561E400CB1809 /* TipFarmApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipFarmApp.swift; sourceTree = "<group>"; };
 		D36D96182AB561E400CB1809 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,7 +47,7 @@
 		D36D962D2AB561E500CB1809 /* TipFarmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipFarmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D36D96312AB561E500CB1809 /* TipFarmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipFarmUITests.swift; sourceTree = "<group>"; };
 		D36D96332AB561E500CB1809 /* TipFarmUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipFarmUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		D36D96402AB5627400CB1809 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		D36D96402AB5627400CB1809 /* ContentViewModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModels.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,9 +100,10 @@
 			children = (
 				D36D96162AB561E400CB1809 /* TipFarmApp.swift */,
 				D36D96182AB561E400CB1809 /* ContentView.swift */,
-				D36D96402AB5627400CB1809 /* File.swift */,
+				D36D96402AB5627400CB1809 /* ContentViewModels.swift */,
 				D36D961A2AB561E500CB1809 /* Assets.xcassets */,
 				D36D961C2AB561E500CB1809 /* Preview Content */,
+				6C3F75172AB65C8400AA0DE7 /* QuizView.swift */,
 			);
 			path = TipFarm;
 			sourceTree = "<group>";
@@ -261,7 +264,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D36D96192AB561E400CB1809 /* ContentView.swift in Sources */,
-				D36D96412AB5627400CB1809 /* File.swift in Sources */,
+				6C3F75182AB65C8400AA0DE7 /* QuizView.swift in Sources */,
+				D36D96412AB5627400CB1809 /* ContentViewModels.swift in Sources */,
 				D36D96172AB561E400CB1809 /* TipFarmApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
